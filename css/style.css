@@ -9,9 +9,6 @@ body {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 80%;
   margin: auto;
   overflow: hidden;
@@ -45,9 +42,12 @@ body {
 }
 
 #navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
   text-align: center;
-  transform: translateX(-18px);
+  /* transform: translateX(-18px); */
 }
 
 #navbar ul {
